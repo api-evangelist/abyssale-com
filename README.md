@@ -66,7 +66,7 @@
 
 Abyssale is a creative automation platform founded in 2019 in Paris, France. It helps agencies and marketing teams scale visual production by generating on‑brand images, videos, PDFs and HTML5 ads from templates. The service offers dynamic image URLs, webhooks, and SDKs for Node.js and Python, enabling rapid creation of marketing assets at scale.
 
-**Areas:** Creative Automation · Marketing · Agencies · Visual Production · SaaS
+**Areas:** Creative Automation · Marketing · Agencies · Visual-Production · Software-as-a-Service
 
 ## Abyssale on APIs.io
 
@@ -94,18 +94,24 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Abyssale Com Agentic Access](https://apis.io/agentic-access/abyssale-com/abyssale-com-agentic-access/)
+- [Abyssale Agentic Access](https://apis.io/agentic-access/abyssale-com/abyssale-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (12)
 
 The data models the API reads and writes.
 
 - [GetDesignDuplicationRequestsDuplicaterequestidResponse](https://apis.io/schemas/abyssale-com/abyssale-com-get-design-duplication-requests-duplicaterequestid-response/)
 - [GetDesignsDesignidFormatsFacebookPostResponse](https://apis.io/schemas/abyssale-com/abyssale-com-get-designs-designid-formats-facebook-post-response/)
 - [GetDesignsImportJson64238D01D402474B8C2DFbc957E9D290Response](https://apis.io/schemas/abyssale-com/abyssale-com-get-designs-import-json64238-d01-d402474-b8-c2-dfbc957-e9-d290-response/)
+- [GetFontsResponse](https://apis.io/schemas/abyssale-com/abyssale-com-get-fonts-response/)
+- [GetProjectsResponse](https://apis.io/schemas/abyssale-com/abyssale-com-get-projects-response/)
+- [GetWorkspaceTemplateCategoriesResponse](https://apis.io/schemas/abyssale-com/abyssale-com-get-workspace-template-categories-response/)
 - [GetWorkspaceTemplatesResponse](https://apis.io/schemas/abyssale-com/abyssale-com-get-workspace-templates-response/)
 - [PostDesignsDesignidDynamicImageUrlResponse](https://apis.io/schemas/abyssale-com/abyssale-com-post-designs-designid-dynamic-image-url-response/)
+- [PostExportAbyssaleRequest](https://apis.io/schemas/abyssale-com/abyssale-com-post-export-abyssale-request/)
 - [PostImagesRequest](https://apis.io/schemas/abyssale-com/abyssale-com-post-images-request/)
+- [PostProjectsRequest](https://apis.io/schemas/abyssale-com/abyssale-com-post-projects-request/)
+- [PostProjectsResponse](https://apis.io/schemas/abyssale-com/abyssale-com-post-projects-response/)
 
 #### JSON-LD (1)
 
@@ -123,8 +129,8 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Abyssale Com Authentication](https://apis.io/security/abyssale-com/abyssale-com-authentication/)
-- [Abyssale Com Domain Security](https://apis.io/security/abyssale-com/abyssale-com-domain-security/)
+- [Abyssale Authentication](https://apis.io/security/abyssale-com/abyssale-com-authentication/)
+- [Abyssale Domain Security](https://apis.io/security/abyssale-com/abyssale-com-domain-security/)
 
 ## Where to find this API
 
@@ -145,25 +151,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 58.5** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 46.3** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 55.0 |
-| Contract governance | 79.1 |
-| Operational transparency | 31.6 |
+| Discoverability | 83.9 |
+| Contract quality | 26.0 |
+| Contract governance | 22.0 |
+| Operational transparency | 28.6 |
 | Developer ergonomics | 70.7 |
-| Access clarity | 44.7 |
+| Access clarity | 51.1 |
 
-**Agent readiness 36.3** — agent-ready
+**Agent readiness 25.7** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
@@ -171,7 +177,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | unknown |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -181,6 +187,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
 
